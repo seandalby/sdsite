@@ -1,0 +1,51 @@
+# Sitewide configuration settings. Set `title` to the site title, which
+# will be appended to the URL following {{page.title}} |
+
+title: Dalby
+auto: true
+server: true
+permalink: /:title
+exclude:
+    - .gitignore
+    - README.md
+
+# Prose settings
+
+prose:
+  rooturl: "_posts"
+  metadata:
+    "_posts/mapsites":
+      title: 
+      permalink: 
+      description: 
+      country: 
+      layout: modal
+      published: false
+      tag: 
+      mixlink: 
+      downloads:
+          - type: 
+            link: 
+      map: 
+          api: 
+          center: {lat: 0, lon: 0, zoom: 0}
+          zoomrange: [0, 17]
+          features: [zoomwheel, tooltips, zoombox, zoompan, legend, share]
+      layers:
+          - name: 
+            api: 
+            group: 1
+            initial: true
+          - name: 
+            api: 
+            group: 1
+          - name: 
+            api: 
+            group: 0
+            initial: true
+          - name: 
+            api: 
+            group: 0
+      groups: 
+          - 0: 
+          - 1: 
